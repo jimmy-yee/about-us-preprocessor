@@ -22,8 +22,8 @@ function mouse_in_1(){
     arrow.setAttribute('style','none');
     short_1.setAttribute('style','visibility:hidden');
     tall_1.setAttribute('style','none');
-    name_1.setAttribute('src','picture/name1.png');
-    genius_1.setAttribute('src','picture/Self1.png');
+    name_1.setAttribute('src','../picture/name1.png');
+    genius_1.setAttribute('src','../picture/Self1.png');
     genius_1.setAttribute('width','15%');
     genius_1.setAttribute('height','13%');
    
@@ -39,8 +39,8 @@ function mouse_in_2(){
     arrow_2.setAttribute('style','none');
     short_2.setAttribute('style','visibility:hidden');
     tall_2.setAttribute('style','none');
-    name_2.setAttribute('src','picture/name2.png');
-    genius_2.setAttribute('src','picture/Self2.png');
+    name_2.setAttribute('src','../picture/name2.png');
+    genius_2.setAttribute('src','../picture/Self2.png');
     genius_2.setAttribute('width','15%');
     genius_2.setAttribute('height','13%');
    
@@ -55,8 +55,8 @@ function mouse_in_3(){
     arrow_3.setAttribute('style','none');
     short_3.setAttribute('style','visibility:hidden');
     tall_3.setAttribute('style','none');
-    name_3.setAttribute('src','picture/name3.png');
-    genius_3.setAttribute('src','picture/Self3.png');
+    name_3.setAttribute('src','../picture/name3.png');
+    genius_3.setAttribute('src','../picture/Self3.png');
     genius_3.setAttribute('width','15%');
     genius_3.setAttribute('height','13%');
    
@@ -71,8 +71,8 @@ function mouse_in_4(){
     arrow_4.setAttribute('style','none');
     short_4.setAttribute('style','visibility:hidden');
     tall_4.setAttribute('style','none');
-    name_4.setAttribute('src','picture/name4.png');
-    genius_4.setAttribute('src','picture/Self4.png');
+    name_4.setAttribute('src','../picture/name4.png');
+    genius_4.setAttribute('src','../picture/Self4.png');
     genius_4.setAttribute('width','15%');
     genius_4.setAttribute('height','13%');
    
@@ -86,8 +86,8 @@ function mouse_in_5(){
     arrow_5.setAttribute('style','none');
     short_5.setAttribute('style','visibility:hidden');
     tall_5.setAttribute('style','none');
-    name_5.setAttribute('src','picture/name5.png');
-    genius_5.setAttribute('src','picture/Self5.png');
+    name_5.setAttribute('src','../picture/name5.png');
+    genius_5.setAttribute('src','../picture/Self5.png');
     genius_5.setAttribute('width','15%');
     genius_5.setAttribute('height','13%');
    
@@ -101,8 +101,8 @@ function mouse_in_6(){
     arrow_6.setAttribute('style','none');
     short_6.setAttribute('style','visibility:hidden');
     tall_6.setAttribute('style','none');
-    name_6.setAttribute('src','picture/name6.png');
-    genius_6.setAttribute('src','picture/Self6.png');
+    name_6.setAttribute('src','../picture/name6.png');
+    genius_6.setAttribute('src','../picture/Self6.png');
     genius_6.setAttribute('width','15%');
     genius_6.setAttribute('height','13%');
    
@@ -110,40 +110,50 @@ function mouse_in_6(){
 
 function mouse_in_news(){
     var news = img_news;
-    news.setAttribute('src','picture/news.png');
+    news.setAttribute('src','../picture/news.png');
 }
 
 function mouse_in_equipment(){
     var equipment = img_equipment;
-    equipment.setAttribute('src','picture/equipment.png');
+    equipment.setAttribute('src','../picture/equipment.png');
 
 }
 function mouse_in_together(){
     var together = img_together;
-    together.setAttribute('src','picture/together.png');
+    together.setAttribute('src','../picture/together.png');
+
+}
+
+function mouse_in_about_us(){
+    var about = img_about_us;
+    about.setAttribute('src','../picture/about us.png');
 
 }
 function mouse_in_connect(){
     var connect = img_connect;
-    connect.setAttribute('src','picture/connect us.png');
+    connect.setAttribute('src','../picture/connect us.png');
 }
 
 function mouse_out_news(){
     var news = img_news;
-    news.setAttribute('src','picture/un-news.png');
+    news.setAttribute('src','../picture/un-news.png');
 }
 
 function mouse_out_equipment(){
     var equipment = img_equipment;
-    equipment.setAttribute('src','picture/un-equipment.png');
+    equipment.setAttribute('src','../picture/un-equipment.png');
 }
 function mouse_out_together(){
     var together = img_together;
-    together.setAttribute('src','picture/un-together.png' );
+    together.setAttribute('src','../picture/un-together.png' );
+}
+function mouse_out_about_us(){
+    var about = img_about_us;
+    about.setAttribute('src','../picture/un-about us.png');
 }
 function mouse_out_connect(){
     var connect = img_connect;
-    connect.setAttribute('src','picture/un-connect us.png');
+    connect.setAttribute('src','../picture/un-connect us.png');
 }
 function mouse_out_1(){
     var arrow = document.querySelector(".arrow_1");
@@ -154,8 +164,8 @@ function mouse_out_1(){
     arrow.setAttribute('style','visibility:hidden');
     short_1.setAttribute('style','none');
     tall_1.setAttribute('style','visibility:hidden');
-    name_1.setAttribute('src','picture/un-name1.png');
-    genius_1.setAttribute('src','picture/ginius1.png');
+    name_1.setAttribute('src','../picture/un-name1.png');
+    genius_1.setAttribute('src','../picture/ginius1.png');
     genius_1.setAttribute('width','15%');
     genius_1.setAttribute('height','15%');
     
@@ -170,8 +180,8 @@ function mouse_out_2(){
     arrow_2.setAttribute('style','visibility:hidden');
     short_2.setAttribute('style','none');
     tall_2.setAttribute('style','visibility:hidden');
-    name_2.setAttribute('src','picture/un-name2.png');
-    genius_2.setAttribute('src','picture/ginius2.png');
+    name_2.setAttribute('src','../picture/un-name2.png');
+    genius_2.setAttribute('src','../picture/ginius2.png');
     genius_2.setAttribute('width','15%');
     genius_2.setAttribute('height','15%');
    
@@ -187,8 +197,8 @@ function mouse_out_3(){
     arrow_3.setAttribute('style','visibility:hidden');
     short_3.setAttribute('style','none');
     tall_3.setAttribute('style','visibility:hidden');
-    name_3.setAttribute('src','picture/un-name3.png');
-    genius_3.setAttribute('src','picture/ginius3.png');
+    name_3.setAttribute('src','../picture/un-name3.png');
+    genius_3.setAttribute('src','../picture/ginius3.png');
     genius_3.setAttribute('width','15%');
     genius_3.setAttribute('height','15%');
    
@@ -204,8 +214,8 @@ function mouse_out_4(){
     arrow_4.setAttribute('style','visibility:hidden');
     short_4.setAttribute('style','none');
     tall_4.setAttribute('style','visibility:hidden');
-    name_4.setAttribute('src','picture/un-name4.png');
-    genius_4.setAttribute('src','picture/ginius4.png');
+    name_4.setAttribute('src','../picture/un-name4.png');
+    genius_4.setAttribute('src','../picture/ginius4.png');
     genius_4.setAttribute('width','15%');
     genius_4.setAttribute('height','15%');
    
@@ -221,8 +231,8 @@ function mouse_out_5(){
     arrow_5.setAttribute('style','visibility:hidden');
     short_5.setAttribute('style','none');
     tall_5.setAttribute('style','visibility:hidden');
-    name_5.setAttribute('src','picture/un-name5.png');
-    genius_5.setAttribute('src','picture/ginius5.png');
+    name_5.setAttribute('src','../picture/un-name5.png');
+    genius_5.setAttribute('src','../picture/ginius5.png');
     genius_5.setAttribute('width','15%');
     genius_5.setAttribute('height','15%');
    
@@ -238,8 +248,8 @@ function mouse_out_6(){
     arrow_6.setAttribute('style','visibility:hidden');
     short_6.setAttribute('style','none');
     tall_6.setAttribute('style','visibility:hidden');
-    name_6.setAttribute('src','picture/un-name6.png');
-    genius_6.setAttribute('src','picture/ginius6.png');
+    name_6.setAttribute('src','../picture/un-name6.png');
+    genius_6.setAttribute('src','../picture/ginius6.png');
     genius_6.setAttribute('width','15%');
     genius_6.setAttribute('height','15%');
    
@@ -248,11 +258,11 @@ function mouse_out_6(){
 
 function mouse_in_findNow(){
     var find_now = img_findNow;
-    find_now.setAttribute('src','picture/find now.png');
+    find_now.setAttribute('src','../picture/find now.png');
 }
 function mouse_out_findNow(){
     var find_now = img_findNow;
-    find_now.setAttribute('src','picture/un-find now.png');
+    find_now.setAttribute('src','../picture/un-find now.png');
 }
 
 function mouse_out_click(){
@@ -265,25 +275,25 @@ function mouse_aboutus_click(){
     document.documentElement.scrollTop = 2000; // For Chrome, Firefox, IE and Opera
 }
    
-// Get the button:
-let mybutton = document.getElementById("myBtn");
+// // Get the button:
+// let mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function () { scrollFunction() };
+// // When the user scrolls down 20px from the top of the document, show the button
+// window.onscroll = function () { scrollFunction() };
 
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-    } else {
-        mybutton.style.display = "none";
-    }
-}
+// function scrollFunction() {
+//     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//         mybutton.style.display = "block";
+//     } else {
+//         mybutton.style.display = "none";
+//     }
+// }
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
+// // When the user clicks on the button, scroll to the top of the document
+// function topFunction() {
+//     document.body.scrollTop = 0; // For Safari
+//     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+// }
 
 img_genius_1.addEventListener('mouseenter',mouse_in_1);
 img_genius_2.addEventListener('mouseenter',mouse_in_2);
@@ -303,6 +313,8 @@ img_findNow.addEventListener('mouseleave',mouse_out_findNow);
 img_findNow.addEventListener('click',mouse_out_click);
 img_about_us.addEventListener('click',mouse_aboutus_click);
 
+
+img_about_us.addEventListener('mouseenter',mouse_in_about_us);
 img_news.addEventListener('mouseenter' ,mouse_in_news);
 img_equipment.addEventListener('mouseenter', mouse_in_equipment);
 img_together.addEventListener('mouseenter', mouse_in_together);
@@ -311,6 +323,6 @@ img_news.addEventListener('mouseleave' ,mouse_out_news);
 img_equipment.addEventListener('mouseleave' ,mouse_out_equipment);
 img_together.addEventListener('mouseleave' ,mouse_out_together);
 img_connect.addEventListener('mouseleave', mouse_out_connect);
-
+img_about_us.addEventListener('mouseleave',mouse_out_about_us);
 
 

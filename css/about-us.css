@@ -5,10 +5,12 @@ body {
 .container {
   position: absolute;
 }
-.container .background_image {
+
+.background_image {
   width: 100%;
 }
-.container .find_now {
+
+.find_now {
   position: absolute;
   top: 20%;
   left: 16%;
@@ -16,49 +18,56 @@ body {
   height: 15%;
   z-index: 2;
 }
-.container .arrow_1 {
+
+.arrow_1 {
   position: absolute;
   top: 54%;
   left: 6.5%;
   width: 5%;
   height: 3%;
 }
-.container .arrow_2 {
+
+.arrow_2 {
   position: absolute;
   top: 54%;
   left: 22.5%;
   width: 5%;
   height: 3%;
 }
-.container .arrow_3 {
+
+.arrow_3 {
   position: absolute;
   top: 54%;
   left: 38.5%;
   width: 5%;
   height: 3%;
 }
-.container .arrow_4 {
+
+.arrow_4 {
   position: absolute;
   top: 54%;
   left: 54.5%;
   width: 5%;
   height: 3%;
 }
-.container .arrow_5 {
+
+.arrow_5 {
   position: absolute;
   top: 54%;
   left: 70.5%;
   width: 5%;
   height: 3%;
 }
-.container .arrow_6 {
+
+.arrow_6 {
   position: absolute;
   top: 54%;
   left: 86.5%;
   width: 5%;
   height: 3%;
 }
-.container .short_1 {
+
+.short_1 {
   position: absolute;
   top: 72.5%;
   left: 0.1%;
@@ -66,7 +75,8 @@ body {
   height: 10%;
   z-index: 2;
 }
-.container .short_2 {
+
+.short_2 {
   position: absolute;
   top: 72.5%;
   left: 18%;
@@ -74,7 +84,8 @@ body {
   height: 10%;
   z-index: 2;
 }
-.container .short_3 {
+
+.short_3 {
   position: absolute;
   top: 70.5%;
   left: 34%;
@@ -82,7 +93,8 @@ body {
   height: 12%;
   z-index: 2;
 }
-.container .short_4 {
+
+.short_4 {
   position: absolute;
   top: 73.5%;
   left: 50%;
@@ -90,7 +102,8 @@ body {
   height: 9%;
   z-index: 2;
 }
-.container .short_5 {
+
+.short_5 {
   position: absolute;
   top: 72.5%;
   left: 65.5%;
@@ -98,7 +111,8 @@ body {
   height: 10%;
   z-index: 2;
 }
-.container .short_6 {
+
+.short_6 {
   position: absolute;
   top: 72.5%;
   left: 81%;
@@ -106,7 +120,8 @@ body {
   height: 10%;
   z-index: 2;
 }
-.container .tall_1 {
+
+.tall_1 {
   position: absolute;
   top: 67.5%;
   left: 3%;
@@ -114,79 +129,137 @@ body {
   height: 15%;
   z-index: 2;
 }
-.container .genius_1 {
+
+.tall_2 {
+  position: absolute;
+  top: 67.5%;
+  left: 19%;
+  width: 12%;
+  height: 15%;
+  z-index: 2;
+}
+
+.tall_3 {
+  position: absolute;
+  top: 67.5%;
+  left: 35%;
+  width: 12%;
+  height: 15%;
+  z-index: 2;
+}
+
+.tall_4 {
+  position: absolute;
+  top: 67.5%;
+  left: 50.5%;
+  width: 12%;
+  height: 15%;
+  z-index: 2;
+}
+
+.tall_5 {
+  position: absolute;
+  top: 67.5%;
+  left: 67.5%;
+  width: 12%;
+  height: 15%;
+  z-index: 2;
+}
+
+.tall_6 {
+  position: absolute;
+  top: 67.5%;
+  left: 83.5%;
+  width: 12%;
+  height: 15%;
+  z-index: 2;
+}
+
+.genius_1 {
   position: absolute;
   top: 57.5%;
   left: 1.5%;
 }
-.container .genius_2 {
+
+.genius_2 {
   position: absolute;
   top: 57.5%;
   left: 17.5%;
 }
-.container .genius_3 {
+
+.genius_3 {
   position: absolute;
   top: 57.5%;
   left: 33.5%;
 }
-.container .genius_4 {
+
+.genius_4 {
   position: absolute;
   top: 57.5%;
   left: 49.5%;
 }
-.container .genius_5 {
+
+.genius_5 {
   position: absolute;
   top: 57.5%;
   left: 65.5%;
 }
-.container .genius_6 {
+
+.genius_6 {
   position: absolute;
   top: 57.5%;
   left: 81.5%;
 }
-.container .name_1 {
+
+.name_1 {
   position: absolute;
   top: 84%;
   left: 3.3%;
   width: 11.25%;
   height: 5.75%;
 }
-.container .name_2 {
+
+.name_2 {
   position: absolute;
   top: 84%;
   left: 19.5%;
   width: 11.25%;
   height: 5.75%;
 }
-.container .name_3 {
+
+.name_3 {
   position: absolute;
   top: 84%;
   left: 35.7%;
   width: 11.25%;
   height: 5.75%;
 }
-.container .name_4 {
+
+.name_4 {
   position: absolute;
   top: 84%;
   left: 51.9%;
   width: 11.25%;
   height: 5.75%;
 }
-.container .name_5 {
+
+.name_5 {
   position: absolute;
   top: 84%;
   left: 68.1%;
   width: 11.25%;
   height: 5.75%;
 }
-.container .name_6 {
+
+.name_6 {
   position: absolute;
   top: 84%;
   left: 84.2%;
   width: 11.25%;
   height: 5.75%;
 }
-.container #myBtn {
+
+#myBtn {
   display: none;
   /* Hidden by default */
   position: fixed;
@@ -213,30 +286,45 @@ body {
   /* Rounded corners */
   font-size: 18px;
   /* Increase font size */
+}
+
+.about_us {
   position: absolute;
   left: 55%;
   top: 2%;
   width: 8%;
   height: 1.5%;
   z-index: 2;
+}
+
+.news {
   position: absolute;
   left: 64%;
   top: 2%;
   width: 8%;
   height: 1.5%;
   z-index: 2;
+}
+
+.equipment {
   position: absolute;
   left: 73%;
   top: 2%;
   width: 8%;
   height: 1.5%;
   z-index: 2;
+}
+
+.together {
   position: absolute;
   left: 82%;
   top: 2%;
   width: 8%;
   height: 1.5%;
   z-index: 2;
+}
+
+.connect {
   position: absolute;
   left: 91%;
   top: 2%;
