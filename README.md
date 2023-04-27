@@ -1,4 +1,3 @@
-This is the group 4 README for the homework AboutUs_prepeocessor. And the topic of our group is Genius In Mountains.
 # How to run?
 ### 1. Install the Node.js for the basic environment
 <https://nodejs.org/en>  
@@ -19,4 +18,4 @@ pug -w about-us.pug -o ./html -P
 sass --watch about-us.sass:css/about-us.css
 ```
 ### 6. The .html and .css files are ready to run in the browser
-<https://jimmy-yee.github.io/about-us-preprocessor/html/about-us.html>  
+[百岳人才圖鑑](https://jimmy-yee.github.io/about-us-preprocessor/html/about-us.html)
